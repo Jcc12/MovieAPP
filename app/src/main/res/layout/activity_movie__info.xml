@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.materiallogindemo.Movie_Info">
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="cursive"
+
+            android:text="           Movie List"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/movie1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Avengers: Infinity war" />
+
+        <Button
+            android:id="@+id/movie2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Kings" />
+
+        <Button
+            android:id="@+id/movie3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Un beau soleil intérieur" />
+
+        <Button
+            android:id="@+id/movie4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ready Player One" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+
+            android:text="
+                                   More to be continued..." />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
